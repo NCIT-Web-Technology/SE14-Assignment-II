@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ASSIGNMENT II</title>
+
+		<meta name="keywords" content="farmers, farmers survey, fosrms"/>
+		<meta name="description" content="Contains the survey for the farmers about their farming techniques,and the animals they are farming. "/>
+		<meta name="revised" content="google,12/4/2015"/>
+		<meta name="organization" content="Queen Consolidated"/>
+		
+	</head>
+
+	<body>
+		<h1><center>FARMERS SURVEY</center></h1>
+			<p>Please take a few moments to complete this satisfaction survey. </p>
+		
+		<form action="survey_collect" methord="get" name="farmers_survey" >
+			<p> <b>FullName:</b></p>
+				<input type="text" name="full_name" value="" placeholder="Type your name..." />
+			
+
+			<p><b>E-mail:</b></p>
+				<input type="email" name="e-mail" value="" placeholder="eg:xyz@asd.org"/>
+			
+
+			<p><b>Address:</b></p>	
+				<input type="textarea" name="address" value="" placeholder="Type full Adderss" />
+				
+			<p><b>Gender:</b></p>
+				<input type="radio" name="sex" value="male" placeholder="male"/> 
+				<i>Male</i>
+				<input type="radio" name="sex" value="female" placeholder="female"/> <i>Female</i>
+				<input type="radio" name="sex" value="other" placeholder="other"/> <i>Other</i>
+			<p><b>Upload your Citizenship Information:</b></p>
+				<input type="file" name="document" placeholder="citizenship pic" />
+
+			<p><b>Which of the following animals are you farming?</b></p>
+				<input type="checkbox" name="animals" value="Cow"/>Cow&nbsp;
+				<input type="checkbox" name="animals" value="Buffalo"/>Buffalo&nbsp;
+				<input type="checkbox" name="animals" value="Goat"/>Goat&nbsp;
+				<input type="checkbox" name="animals" value="Sheep"/>Sheep&nbsp;
+				<br/>
+				<br/>
+				<input type="checkbox" name="animals" value="chicken"/>chicken&nbsp;
+				<input type="checkbox" name="animals" value="pig"/>pig&nbsp;
+				<input type="checkbox" name="animals" value="horses"/>horses&nbsp;
+				<input type="checkbox" name="animals" value="duck"/>duck&nbsp;
+				
+			
+			<p><b>Methord of your farming following:</b></p>  
+				<select>
+				   <option value="select one">select any one</option>
+				   <option value="Traditional">Traditional</option>
+				   <option value="Modern">Modern</option>
+
+				</select>
+				
+			
+
+		<h5>	Thank you for taking up this survey! Your input will help us to evaluate and improve for your benifit.
+		</h5>
+			
+			<input type="Submit" name="full_name" value="Submit"/>
+		</form>
+		
+	</body>
+</html>

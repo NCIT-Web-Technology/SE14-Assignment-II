@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<meta name="description" content="Survey about farming form made using basic Input types using HTML">
+		<meta name="keywords" content="HTML, Survey, Form, InputType, Animals, Farm, Farming ">
+		<meta name="author" content="Binay Dahal">
+		<meta charset="UTF-8">
+	</head>	
+	<body>
+	
+		<h2>Survey Form </h2>
+		<table border="0" cellspacing="0" width="50%" cellpadding="10">
+			<form action="" method="get" name="testform">
+			<thead>
+				<tr>
+					<th>Topic</th>
+					<th>Fill Here</th>
+					
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td><input type ="text" name="Full_Name" value="" placeholder="Enter your name" ></td>
+					
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type ="email" name="Email" value="" placeholder="Enter your Email" ></td>
+					
+				</tr>
+				<tr>
+					<td>Full Address</td>
+					<td><textarea rows="4" cols="50" name="address"></textarea></td>
+					
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="gender" value="male">Male<br>	
+						<input type="radio" name="gender" value="female">Female<br>
+						<input type="radio" name="gender" value="other">Other<br>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>Animals in your Farm</td>
+					<td><input type="checkbox" name="farming" value="Cow">1. Cow<br>
+						<input type="checkbox" name="farming" value="Buffalo">2. Buffalo<br> 
+						<input type="checkbox" name="farming" value="Goat">3. Goat<br>
+						<input type="checkbox" name="farming" value="Sheep">4.Sheep<br>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>Type Of Farming</td>
+					<td><select name="dropdown">
+						<option value="Modern">Modern</option>
+						<option value="Traditional">Traditional</option>
+						</select>
+					</td>
+					
+				</tr>
+			</tbody>
+			
+			</form>
+		
+		</table>
+
+		<p><input type = "Submit" value ="Submit"></p>
+
+	</body>
+</html>	
+	
