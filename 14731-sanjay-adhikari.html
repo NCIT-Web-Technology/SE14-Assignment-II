@@ -1,0 +1,55 @@
+<!DOCTYPE htnl>
+<head>
+	<title>Form for Census</title>
+
+<meta name="keywords" content="form,html,survey, survey form,census"/>
+<meta name="description" content="survey cencus"/>
+<meta name="author" content="Sanjay"/>
+</head>
+     <body>
+		<p><h1>Please fill the form</h1></p>
+
+          <form name="form 1" method="get" action="">
+          
+          <p><b>First name:</b></p>
+          <input type="text" name="fir_name" value="" placeholder="first name please" />
+          
+          <p><b>Last name:</b></p>
+          <input type="text" name="sec_name" value="" placeholder=" last name please" />
+
+		  <p><b>Contact Number:</b></p>
+          <input type="text" maxlength="10" name="sec_name" value="" placeholder="10 digit valid phone number" />
+          
+          <p><strong>Your Email:</strong></p>
+          <input type="email" name="id" value="" placeholder="valid email plz " />
+
+          <p><strong>Your Address:</strong></p>
+          <textarea rows="5" cols="60" name="address" value="" placeholder="enter your address.." ></textarea>
+
+          <p><Strong>Gender:</strong></p>
+            <input type="radio" name="gender" value="Male"/>Male
+            <input type="radio" name="gender" value="Female" checked/>Female
+          
+
+          <p><strong>Which of the following animals you are farming?</strong></p>
+
+              <input type="checkbox" name="animal_list" value="c" checked/>  Cow
+              <input type="checkbox" name="animal_list" value="p" /> Pig
+              <input type="checkbox" name="animal_list" value="b" />   Buffalo <br/>
+              <input type="checkbox" name="animal_list" value="s" />  fish
+              <input type="checkbox" name="animal_list" value="s" /> Hen
+              <input type="checkbox" name="animal_list" value="g" />  Goat
+              <input type="checkbox" name="animal_list" value="s" />  Sheep
+             
+          <p><strong>Type of farming you like</strong> :
+              <select name="farming_type" >
+              <option value=""selected>choose..</option>
+              <option value="traditional">Traditional</option>
+              <option value="modern">Modern</option>
+			  </select>
+
+<p> <input type="submit" name="sub" value="submit"/> </p>         
+
+</form>
+</body>
+</html>
